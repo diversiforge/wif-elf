@@ -2,7 +2,7 @@
 A little helper that keeps track of your position in a weaving draft. (Not quite a dobby!)
 
 # How do I use it?
-First, have a direct tie-up on your loom. Next, pick out a draft you want to weave and get it in WIF format.
+First, have a direct tie-up on your loom. Next, pick out a draft you want to weave and get it in WIF format. The treadling order in the WIF should repeat exactly as you want to be weaving it.
 
 Save the WIF file to your phone or tablet. (I emailed it to myself.) Open http://diversiforge.github.io/wif-elf/www/index.html in your device's browser. Scroll down and open the WIF file. Scroll back up and behold your shed sequence!
 
