@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wif Elf</title>
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/wif-elf.js"></script>
+  <link rel="stylesheet" href="css/wif-elf.css">
+</head>
+<body>
+  <table id="content">
+    <tr>
+      <td id="pick-nav">
+        <div id="pick-prev" class="noselect">Prev</div>
+        <div id="pick-next" class="noselect">Next</div>
+      </td>
+      <td id="pick-display">
+        <table id="picks">
+          <tr class="pick" id="pick1"></tr>
+          <tr class="pick" id="pick2"></tr>
+          <tr class="pick current" id="pick3"></tr>
+          <tr class="pick" id="pick4"></tr>
+          <tr class="pick" id="pick5"></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <div id="loader">
+    <p>Current WIF: <span id="current-wif">none</span></p>
+    <p>Load WIF: <input type="file" id="file" name="file"></p>
+  </div>
+</body>
+</html>
